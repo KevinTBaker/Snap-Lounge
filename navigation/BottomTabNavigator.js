@@ -131,8 +131,8 @@ function getHeaderTitle(route) {
       return "Camera";
     case "Friends":
       return "Friends";
-    case "Spotlight":
-      return "Spotlight";
+    case "Lounge":
+      return "Lounge";
   }
 }
 
