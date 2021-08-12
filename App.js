@@ -10,10 +10,14 @@ import SignupScreen from "./screens/SignupScreen";
 import ProfileScreen from "./screens/ProfileScreen";
 import BottomTabNavigator from "./navigation/BottomTabNavigator";
 import firebase from "@firebase/app";
+import { SpotlightScreen } from "./screens/SpotlightScreen";
 import { ActionSheetProvider } from "@expo/react-native-action-sheet";
 import { QuizScreen } from "./screens/Quiz1Screen";
 import {QuizScreen2} from "./screens/Quiz2screen";
+import { GrattitudeScreen } from "./screens/grattitude_screen";
+import { lastScreen } from "./screens/lastScreen";
 
+//<Stack.Screen name="Home" component={SpotlightScreen} />
 const Stack = createStackNavigator();
 
 function App() {
@@ -40,6 +44,8 @@ function App() {
                 <Stack.Screen name="Profile" component={ProfileScreen} />
                 <Stack.Screen name="Quiz" component={QuizScreen} />
                 <Stack.Screen name="Quiz2" component={QuizScreen2} />
+                <Stack.Screen name="Grattitude" component={GrattitudeScreen} />
+                <Stack.Screen name="Last" component={lastScreen} />
               </>
             ) : (
               <>

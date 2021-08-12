@@ -13,7 +13,7 @@ import { TouchableOpacity } from "react-native";
 import { ScreenContainer } from "react-native-screens";
 
 //<Image style={styles.selectApply} source={require('../assets/all_that_apply.png')}></Image>
-export const QuizScreen2 = () => {
+export const QuizScreen2 = ( {navigation} ) => {
     return (
         <View style={styles.background}>
             <Fragment>
@@ -36,13 +36,12 @@ export const QuizScreen2 = () => {
                         <TouchableOpacity onPress={() => {navigation.navigate("Quiz")}}>
                             <Image style={styles.back_Button} source={require('../assets/back_Button.png')}></Image>
                         </TouchableOpacity>
-                        <TouchableOpacity>
+                        <TouchableOpacity onPress={() => {navigation.navigate("Grattitude")}}>
                             <Image style={styles.gray_continue_Button} source={require('../assets/gray_continue.png')}></Image>
                         </TouchableOpacity>
                         <TouchableOpacity>
                             <Image style={styles.scroll_Circles4} source={require('../assets/scroll_Circles4.png')}></Image>
                         </TouchableOpacity>
-                        
                     </ImageBackground>
                 </View>
             </Fragment>
@@ -117,7 +116,7 @@ const styles = StyleSheet.create({
         top: 645,
     },
     gray_continue_Button: {
-        position: 'center',
+        //position: 'center',
         maxWidth: '100%',
         width: 180,
         height: 55,

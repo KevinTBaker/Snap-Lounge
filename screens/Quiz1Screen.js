@@ -58,7 +58,6 @@ const styles = StyleSheet.create({
         width: 324,
         height: 600,
         left: 25,
-        //top: 80,
         top: 40,
     },
     headerText: {
@@ -96,7 +95,7 @@ const styles = StyleSheet.create({
         left: 170,
     },
     gray_continue_Button: {
-        position: 'center',
+        //position: 'center',
         maxWidth: '100%',
         width: 180,
         height: 55,

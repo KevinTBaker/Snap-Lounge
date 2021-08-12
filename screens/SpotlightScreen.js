@@ -37,8 +37,8 @@ export default function SpotlightScreen({ navigation }) {
               <Text style={styles.MonthName}>Aug</Text>
               <Text style={styles.Date_num}>8</Text>
             </View>
+            <Text style={styles.latest_mood}>Snap Lounge </Text>
             <Text style={styles.reflect}>Take the time to self reflect!</Text>
-            <Text style={styles.latest_mood}>Latest Mood: </Text>
           </View>
           <View>
             <TouchableOpacity style={{flex:1}} onPress={() => {navigation.navigate("Quiz")}}>
@@ -73,11 +73,6 @@ const styles = StyleSheet.create({
   },
   
   background: {
-    //flex: 1,
-    //resizeMode: 'contain',
-    //justifyContent: 'center',
-    //width: 700,
-    //height: 700,
     height: 1000,
     width: 1000,
   },
@@ -213,10 +208,6 @@ const styles = StyleSheet.create({
   },
 
   home_page: {
-    //backgroundColor: '#ACACCA',
-    //flex: 1,
-    //resizeMode: 'cover',
-    //justifyContent: 'center',
     height: "100%",
     width: "100%",
   },
