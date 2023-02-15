@@ -4,6 +4,7 @@ During my time as an engineering scholar at Snapchat I collaborated with design,
 
 # Product Demo
 
-<img width="257" alt="Screen Shot 2023-02-14 at 3 52 30 PM" src="https://user-images.githubusercontent.com/13155397/218891358-f65579b6-82ab-42e1-8819-be7cdd0aa331.png">
+![Landing Page A](https://user-images.githubusercontent.com/13155397/218895194-0460ce73-fdec-4765-a6d2-f5f942d124c0.jpeg)
 
+![Check-in Questionaire - Intro](https://user-images.githubusercontent.com/13155397/218895377-97cf6e30-e04b-41b0-a7b7-33912c7637b2.jpeg)
 
